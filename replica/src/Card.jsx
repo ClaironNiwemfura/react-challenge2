@@ -6,38 +6,37 @@ import"./styles/card.css"
 function Card(props){
     return(
     <div className="container">
-        <div className="left">
+       <div className="left">
             <div className="image">
-               <img src={props.img} alt="img" />
+             <img src={props.img} />
             </div>
             <div className="words">
               <div className="header">
-                    <h3>{props.name?props.name:"profound"} </h3>
+                    <h3>{props.name} </h3>
                     {/* <Button1 className="btn1"/>
                     <Button1 className="btn2"
                     name="featured" /> */}
              {
                 props.button.map((item, idx)=>{
-                    return (
+                return (
                 <Button1 
                 key= {idx}
-                name= {item}
-                
+                name= {item.name}
+                backc={item.backc}
                 />
                           
                     )
-                })
             }
-
-
-
+                )
+            }
+            
 
               </div>
-                <h4>{props.names?props.names:"senior frontend developer"} </h4>
+                <h4>{props.names} </h4>
                 <div className="footer">
-                    <p>{props.namess?props.namess:"1d"}</p>
-                    <p>{props.namess?props.namess:". full time"}</p>
-                    <p>{props.namess?props.namess:".USA only"}</p>
+                    <p>{props.namess1}</p>
+                    <p>{props.namess2}</p>
+                    <p>{props.namess3}</p>
                     
                 </div>
             </div>

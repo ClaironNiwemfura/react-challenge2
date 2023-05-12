@@ -1,1 +1,20 @@
+.bgi{
+    width: 100%;
+    height:20vh;
+    background-color: rgb(38, 109, 109);
+   
 
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    position: relative;
+
+}
+.bd{
+    background-color: rgb(213, 240, 240);
+    padding-top: 32px;
+    margin-top: -10px;
+} 

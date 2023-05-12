@@ -1,9 +1,13 @@
 .container{
-    border:2px solid black ;
-    height:30vh;
+    /* border:2px solid black ; */
+    box-shadow:1px 1px 2px 2px  rgb(150, 143, 143)  ;
+    height:20vh;
     width: 80%;
     display: flex;
     justify-content: space-between;
+    margin:auto;
+    margin-top:20px;
+    
 }
 .image img{
     width: 70px;
@@ -16,23 +20,26 @@
 }
 .header{
     display: flex;
+    margin-top: 20px;
 }
 .footer{
     display: flex;
+    justify-content: space-between;
 }
 
 .words{
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 }
-.btn1 {
+/* .btn1 {
     background-color: aqua;
-    width: 40px;
+    width: 0px;
     height: 20px;
     margin: 20px;
     border-radius: 10px;
     border-style: none;
-}
+} */
 .btn2{
     background-color: rgb(12, 5, 5);
     color: white;
@@ -59,4 +66,20 @@
     margin: 30px;
     gap: 15px;
 
+}
+.aqua{
+    background-color: aqua;
+    border-style: none;
+    margin-left:20px;
+    border-radius:10px;
+    width:40px;
+}
+.black{
+    background-color:black;
+    color:white;
+    border-style:none;
+    margin-left:20px;
+    border-radius:10px;
+    width:60px;
+    
 }
